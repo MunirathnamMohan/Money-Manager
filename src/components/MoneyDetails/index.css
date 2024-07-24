@@ -1,0 +1,65 @@
+.list-con{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-balance{
+    background-color:#ecfccb ;
+    border: 1px solid #84cc16;
+   
+  
+}
+.bg-text{
+    height: 90px;
+    width: 27vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bg-income{
+    background-color:#cffafe ;
+    border: 1px solid  #06b6d4;
+    
+}
+.bg-expenses{
+    background-color:#ede9fe ;
+    border: 1px solid #7c3aed;
+}
+.img{
+    height: 50px;
+}
+.text{
+    font-size: 16px;
+}
+.rupees{
+    font-weight: bold;
+    font-size: 15px;
+}
+@media (max-width:576px){
+    .bg-text{
+        height: 60px;
+        width: 23vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        border-radius: 8px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+    .img{
+        height: 30px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .rupees{
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+}
